@@ -36,7 +36,7 @@ public class Rerun {
 
 	@Test(priority = 2)
 	public void functionaltesting() throws InterruptedException {
-		driver.get("https://tryfront.banksathi.com/credit-cards");
+		driver.navigate("https://tryfront.banksathi.com/credit-cards");
 		driver.manage().window().maximize();
 		Thread.sleep(3000);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
